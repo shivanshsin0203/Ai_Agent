@@ -46,7 +46,7 @@ Example 2:
 
 async function test() {
   const history = [];
-  const userQuery = "What is sum weather of mohali and delhi ?";
+  const userQuery = "What is weather of mohali  ?";
   
   // Step 1: Send user query
   history.push({ type: "user", user: userQuery });
