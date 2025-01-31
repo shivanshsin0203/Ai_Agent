@@ -41,10 +41,10 @@ function getWeatherDetails(city = "") {
 async function ollamaChat() {
   let messages = [];
   messages.push({ role: "system", content: System_prompt });
-  messages.push({ role: "user", content: "What is weather of delhi ?" });
+  messages.push({ role: "user", content: "What is diffrence of weather of delhi and kolkata ?" });
   while (true) {
     const response = await ollama.chat({
-      model: "llama3.2",
+      model: "deepseek-r1:14b",
       messages: messages,
       format: "json",
     });
