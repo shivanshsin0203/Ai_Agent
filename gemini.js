@@ -46,7 +46,7 @@ Example 2:
 
 async function test() {
   const history = [];
-  const user = "What is weather of mumbai  ?";
+  const user = "What is sum of weather of mumbai an mohali  ?";
   let userQuery = JSON.stringify({ type: "user", user });
   console.log("🧑 " + user);
   console.log(history);
